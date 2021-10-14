@@ -5,7 +5,102 @@
 }
 
 .App {
-  text-align: center;
-  background-color: #282c34;
+  background-color: #505a64;
   height: 100vh;
 }
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+
+/* HEADER START */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: gray;
+  color: #fff;
+}
+.header p{
+  font-size: 20px;
+}
+
+/* HEADER END */
+
+
+/* FORM START */
+.form-container{
+  background-color: #65bc6f;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container h1{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container .form input{
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.form-container .add-btn{
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 100px;
+  margin-left: 2px;
+  height: 40px;
+  cursor: pointer;
+}
+/* FORM END */
+
+/* TODO LIST START */
+
+.todos-container{
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.todos-container h2{
+  color: gray;
+  margin: 50px;
+}
+
+.todos .todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.todo p{
+  background-color: #f8f9fa;
+  width: 500px;
+  padding: 10px;
+}
+.todo button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  padding-left: 10px;
+  color: gray;
+}
+
+/* TODO LIST END */
